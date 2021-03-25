@@ -10,11 +10,11 @@ const Header = () => {
                 <ul className="menu">
                     <li><a href="/">Home</a></li>
                     <li><a href="/doctor">Doctor</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Dental Services</a></li>
-                    <li><a href="/">Reviews</a></li>
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/">Contact us</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/services">Dental Services</a></li>
+                    <li><a href="/review">Reviews</a></li>
+                    <li><a href="/blogs">Blog</a></li>
+                    <li><a href="/contact">Contact us</a></li>
                 </ul>
             </div>
         </header>

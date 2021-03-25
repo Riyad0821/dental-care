@@ -17,7 +17,7 @@ const Doctor = () => {
                     <li><a href="/doctor/appointment"><FontAwesomeIcon icon={faCalendar} /> Appointment</a></li>
                     <li><a href="/doctor/patients"><FontAwesomeIcon icon={faUsers} /> Patients</a></li>
                     <li><a href="/doctor/prescriptions"><FontAwesomeIcon icon={faFilePrescription} /> Prescriptions</a></li>
-                    <li><a href="/doctor/settings"><FontAwesomeIcon icon={faCog} /> Setting</a></li>
+                    <li><a href="/doctor/setting"><FontAwesomeIcon icon={faCog} /> Settings</a></li>
                 </ul>
 
                 <div className="logout">

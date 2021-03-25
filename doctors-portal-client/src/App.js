@@ -7,6 +7,11 @@ import Appointment from './Components/Appointment/Appointment';
 import Doctor from './Components/Doctor/Doctor';
 import Login from './Components/Login/Login';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import Services from './Components/HomePage/Services/Services';
+import Blogs from './Components/HomePage/Blogs/Blogs';
+import Contact from './Components/HomePage/Contact/Contact';
+import FeaturedService from './Components/HomePage/FeaturedService/FeaturedService';
+import Testimonials from './Components/HomePage/Testimonials/Testimonials';
 
 export const UserContext = createContext();
 
@@ -40,12 +45,38 @@ function App() {
                         </Route> */}
 
                         <PrivateRoute path="/doctor">
+                            <Header></Header>
                             <Doctor></Doctor>
                         </PrivateRoute>
 
                         <Route path="/appointment">
                             <Header></Header>
                             <Appointment></Appointment>
+                        </Route>
+
+                        <Route path="/services">
+                            <Header></Header>
+                            <Services></Services>
+                        </Route>
+
+                        <Route path="/blogs">
+                            <Header></Header>
+                            <Blogs></Blogs>
+                        </Route>
+
+                        <Route path="/contact">
+                            <Header></Header>
+                            <Contact></Contact>
+                        </Route>
+
+                        <Route path="/about">
+                            <Header></Header>
+                            <FeaturedService></FeaturedService>
+                        </Route>
+
+                        <Route path="/review">
+                            <Header></Header>
+                            <Testimonials></Testimonials>
                         </Route>
 
                     </Switch>

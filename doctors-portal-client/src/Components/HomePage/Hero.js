@@ -10,8 +10,7 @@ const Hero = () => {
                 <div className="half">
                     <h1 className="heroHeading">Your New Smile <br /> Starts Here</h1>
 
-                    <p className="heroIntro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolore molestias aut magni itaque quam. Aperiam alias laboriosam eius officia vitae exercitationem eligendi quibusdam! Aliquam illo quidem laboriosam ratione quaerat!</p>
-
+                    <p className="heroIntro">At Doctors Portal Dental Care, our patients are our top priority. We focus on providing high quality patient care, whether that's through our Govt services or private treatment plans We’re committed to increasing access to quality dental care, providing our patients with a clear choice of treatment options, so you can find the right dental care to meet your needs.</p>
                     <a href="/appointment" className="btn">Get appointment</a>
                 </div>
                 <div className="half">
